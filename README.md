@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a prototype of a charity fundraiser smart contract implemented on the Ethereum blockchain. The smart contract allows for the collection of donations and ensures secure management of the funds. The goal is to provide a transparent and automated way for non-profit organizations to raise funds.
+This project is a prototype of a charity fundraiser  smart contract in the field of information tecnology implemented on the Ethereum blockchain. The smart contract allows for the collection of donations and ensures secure management of the funds. The goal is to provide a transparent and automated way for non-profit organizations to raise funds.
 
 ## Features
 
@@ -17,7 +17,8 @@ This project is a prototype of a charity fundraiser smart contract implemented o
 
 ## Contract Functions
 
-| Function                | Description                                                                 | Utilizzo                                                           | Restrizioni                                    |
+| Function                | Description                                                                 | Usage                                                           | 
+Restrictions                                    |
 |-------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------|
 | `constructor`           | Initializes the contract with the manager and fundraising goal.             | Used when deploying the contract.                                  | None                                           |
 | `donate`                | Allows users to donate Ether to the fundraiser.                             | Called by users who want to donate.                                | Fundraiser must be open, and users can donate only once. |
