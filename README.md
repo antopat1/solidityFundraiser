@@ -17,7 +17,7 @@ This project is a prototype of a charity fundraiser  smart contract in the field
 
 ## Contract Functions
 
-| Function                | Description                                                                 | Usage                                                          | Restrictions                                    |                                   |
+| Function                | Description                                                                 | Usage                                                           | Restrictions                                    |
 |-------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------|
 | `constructor`           | Initializes the contract with the manager and fundraising goal.             | Used when deploying the contract.                                  | None                                           |
 | `donate`                | Allows users to donate Ether to the fundraiser.                             | Called by users who want to donate.                                | Fundraiser must be open, and users can donate only once. |
@@ -30,7 +30,7 @@ This project is a prototype of a charity fundraiser  smart contract in the field
 | `getFundraiserStatus`   | Returns whether the fundraiser is open or closed.                           | Can be called by anyone to check the fundraiser status.            | None                                           |
 | `getParticipant`        | Returns the details of a participant by address.                            | Can be called by anyone to get participant details.                | None                                           |
 | `getAllParticipants`    | Returns a list of all participants with their donations.                    | Can be called by anyone to get all participants and their donations. | None                                           |
-| `getManagerName`        | Returns the name of the manager who deployed the contract.                  | Can be called by anyone to get the manager's name.                 | None                                           |
+| `getManagerName`        | Returns the name of the manager who deployed the contract.
 
 ## Technological Choices
 
