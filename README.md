@@ -17,8 +17,7 @@ This project is a prototype of a charity fundraiser  smart contract in the field
 
 ## Contract Functions
 
-| Function                | Description                                                                 | Usage                                                           | 
-Restrictions                                    |
+| Function                | Description                                                                 | Usage                                                          | Restrictions                                    |                                   |
 |-------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------|
 | `constructor`           | Initializes the contract with the manager and fundraising goal.             | Used when deploying the contract.                                  | None                                           |
 | `donate`                | Allows users to donate Ether to the fundraiser.                             | Called by users who want to donate.                                | Fundraiser must be open, and users can donate only once. |
